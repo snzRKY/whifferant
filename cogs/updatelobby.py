@@ -3,7 +3,6 @@ from discord import app_commands
 from discord.ext import commands
 import typing
 import sqlite3 as sql
-import json
 
 
 # Table Format

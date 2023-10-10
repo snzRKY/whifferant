@@ -4,7 +4,6 @@ from discord.ext import commands
 from tools import lootboxsystem
 from tools import toolbox as tb
 import typing
-import math
 
 
 class open(commands.Cog):

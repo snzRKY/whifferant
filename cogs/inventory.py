@@ -5,7 +5,6 @@ import math
 import numpy as np
 from tools import lootboxsystem
 from tools import toolbox as tb
-import csv
 
 
 def inventoryPageEmbed(pageInv, userName, avatarIcon):

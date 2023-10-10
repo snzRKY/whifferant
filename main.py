@@ -3,7 +3,6 @@ from discord.ext import commands
 from discord import app_commands
 import os
 
-
 class MyBot(commands.Bot):
     def __init__(self):
         super().__init__(command_prefix="$", intents=discord.Intents.all())
@@ -35,7 +34,7 @@ async def ping(interaction: discord.Interaction):
 
 
 try:
-    bot.run(os.getenv("TOKEN"))
+    bot.run("Token Here")
 except discord.errors.HTTPException:
     print("\n\nBLOCKED BY RATE LIMITS\nRESTARTING NOW\n\n\n")
     os.system("kill 1")
