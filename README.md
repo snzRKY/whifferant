@@ -1,4 +1,13 @@
-# whifferant
+# Whifferant!
+
+How to Use:
+1) Download the GITHUB
+2) open up terminal in your files
+3) pip install -r requirements.txt
+4) open main.py in a text editor and scroll down to bot.run("TOKEN HERE") and input your bots token!
+5) Run main.py
+
+   
 Slash Commands:
 /createlobby [name] [attackers] [defenders] [attackervc] [defendervc] [lobbyvc]
 - Creates a generic lobby saved to your server
