@@ -1,9 +1,6 @@
 import sqlite3 as sql
 import random
-import json
-import ast
 from tools import toolbox as tb
-import csv
 
 serverBasedInv = sql.connect("./db/serverBasedInv.db")
 cursor = serverBasedInv.cursor()
